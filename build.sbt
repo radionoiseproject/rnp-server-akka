@@ -1,6 +1,6 @@
 lazy val root = (project in file(".")).
   settings(
-    organization := "se.radionoi",
+    organization := "radionoise",
     name := "rnp-server-akka",
     version := "0.0.0",
     scalaVersion := "2.11.7",

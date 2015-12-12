@@ -1,4 +1,4 @@
-package se.radionoi.hello
+package radionoise.hello
 
 object Main {
 
