@@ -7,10 +7,10 @@ object Greeter {
   case object Done
 }
 
-class Greeter extends Actor {
+class Greeter extends Actor with akka.actor.ActorLogging {
   def receive = {
     case Greeter.Greet =>
-      println("Hello World!")
+      log.debug("Hello World!")
       sender() ! Greeter.Done
   }
 }
